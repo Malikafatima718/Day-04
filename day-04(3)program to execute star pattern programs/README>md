@@ -1,0 +1,11 @@
+Day-04(3)
+program to execute star pattern programs
+n = int(input("Enter number of rows: "))
+
+print("Right Triangle Pattern")
+for i in range(1, n + 1):
+    print("*" * i)
+
+print("\nInverted Right Triangle Pattern")
+for i in range(n, 0, -1):
+    print("*" * i)
